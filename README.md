@@ -22,4 +22,24 @@
 2. Follow the instructions to unlock Jenkins using the initial admin password.
 3. Install the suggested plugins when prompted.
 
+## Managing Jenkins Service
+
+Jenkins runs on port 8080 by default. If you need to stop Jenkins:
+
+- **Windows:**
+  1. Go to Start and search for "Services".
+  2. In the Services window, search for "Jenkins".
+  3. To stop the service, right-click on "Jenkins" and select "Stop".
+  4. To start the service again, right-click on "Jenkins" and select "Start".
+
+- **macOS:**
+  - Stop Jenkins service: 
+    ```sh
+    brew services stop jenkins-lts
+    ```
+  - Start Jenkins service:
+    ```sh
+    brew services start jenkins-lts
+    ```
+
 ---
